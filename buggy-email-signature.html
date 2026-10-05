@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buggy Email Signature</title>
+<!-- Heebo loads in clients that allow web fonts (Apple Mail, iOS Mail). Gmail and Outlook fall back to Inter / Arial. -->
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body style="margin:0; padding:24px; background-color:#FFFFFF;">
+
+<!-- ===== BUGGY EMAIL SIGNATURE · START ===== -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" width="480" style="width:480px; max-width:480px; border-collapse:collapse; font-family:Heebo, Inter, Arial, Helvetica, sans-serif;">
+  <!-- Name -->
+  <tr>
+    <td colspan="2" style="padding:0 0 2px 0; font-family:Heebo, Inter, Arial, Helvetica, sans-serif; font-size:24px; line-height:30px; font-weight:700; color:#000000;">
+      Your name
+    </td>
+  </tr>
+  <!-- Role -->
+  <tr>
+    <td colspan="2" style="padding:0 0 14px 0; font-family:Heebo, Inter, Arial, Helvetica, sans-serif; font-size:16px; line-height:22px; font-weight:400; color:#6A6A6A;">
+      Your role
+    </td>
+  </tr>
+  <!-- Orange divider -->
+  <tr>
+    <td colspan="2" style="padding:0 0 18px 0;">
+      <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;">
+        <tr>
+          <td height="2" style="height:2px; line-height:2px; font-size:2px; background-color:#FF7C00;">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <!-- Logo + contact -->
+  <tr>
+    <!-- Logo: replace LOGO_URL with your hosted file. Upload it at 2x (192 px wide) so it stays sharp; it displays at 96 px. -->
+    <td width="236" valign="top" style="width:236px; padding:4px 0 0 0;">
+      <a href="https://www.joinbuggy.com" target="_blank" style="text-decoration:none;">
+        <img src="https://stevenmaca.github.io/marketing/Buggy.png" alt="Buggy" width="100%" style="display:block; width:50%; height:auto; border:0; outline:none; text-decoration:none;">
+      </a>
+    </td>
+    <td valign="top" style="font-family:Heebo, Inter, Arial, Helvetica, sans-serif; font-size:14px; line-height:20px; font-weight:400; color:#000000;">
+      <a href="tel:+13473346313" style="color:#000000; text-decoration:none;">Your phone or city</a><br>
+      <a href="mailto:info@joinbuggy.com" style="color:#000000; text-decoration:none;">youremail@joinbuggy.com</a>
+    </td>
+  </tr>
+</table>
+<!-- ===== BUGGY EMAIL SIGNATURE · END ===== -->
+
+</body>
+</html>
